@@ -79,11 +79,10 @@ ElectYourLeader/
 │   ├── routes/          # API routes
 │   └── uploads/         # Uploaded files
 ├── client/              # React frontend
-│   ├── public/          # Public assets
-│   └── src/             # Source code
-│       ├── components/  # React components
-│       └── context/     # React context
-└── HOW_TO_RUN.md        # Detailed setup guide
+   ├── public/          # Public assets
+   └── src/             # Source code
+       ├── components/  # React components
+       └── context/     # React context
 ```
 
 ## Security Features
