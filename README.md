@@ -56,19 +56,6 @@ npm run dev
 # Terminal 2: cd client && npm start
 ```
 
-## Default Credentials (Development)
-
-Credentials are **not displayed in the UI**.
-
-- **Super Admin**
-  - Email: `superadmin@example.com` (or `SUPER_ADMIN_EMAIL`)
-  - Password: `superadmin123` (or `SUPER_ADMIN_PASSWORD`)
-- **Admin**
-  - Email: `admin@example.com` (or `DEFAULT_ADMIN_EMAIL`)
-  - Password: `admin123` (or `DEFAULT_ADMIN_PASSWORD`)
-
-⚠️ **Change these immediately in production!**
-
 ## Project Structure
 
 ```
