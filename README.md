@@ -31,17 +31,6 @@ A comprehensive voting portal system for electing leaders in various organizatio
 - **Authentication:** JWT (JSON Web Tokens)
 - **File Upload:** Multer
 
-## Color Scheme
-
-- Background: White (#ffffff) with grey undertone (#f5f5f5)
-- Primary: Dark Green (#006400)
-- Accent: Golden Yellow (#ffd700)
-- Text: Dark (#333333) and Light Grey (#666666)
-
-## Quick Start
-
-See [HOW_TO_RUN.md](./HOW_TO_RUN.md) for detailed installation and setup instructions.
-
 ### Quick Commands
 
 ```bash
@@ -85,7 +74,4 @@ ElectYourLeader/
 
 ISC
 
----
-
-For detailed setup instructions, please refer to [HOW_TO_RUN.md](./HOW_TO_RUN.md)
 
