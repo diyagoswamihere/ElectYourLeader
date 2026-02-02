@@ -1,0 +1,16 @@
+node_modules/
+server/node_modules/
+client/node_modules/
+server/database.sqlite
+server/uploads/
+.env
+.DS_Store
+*.log
+
+
+
+
+
+
+
+

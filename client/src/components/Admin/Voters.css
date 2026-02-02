@@ -1,0 +1,61 @@
+.voters-page {
+  animation: fadeIn 0.5s ease-in;
+}
+
+.add-voter-form {
+  margin-bottom: 32px;
+}
+
+.add-voter-form h2 {
+  color: var(--dark-green);
+  margin-bottom: 24px;
+}
+
+.tabs-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab-btn {
+  padding: 12px 24px;
+  border: 2px solid var(--dark-green);
+  background: white;
+  color: var(--dark-green);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.tab-btn:hover {
+  background: rgba(0, 100, 0, 0.1);
+}
+
+.tab-btn.active {
+  background: var(--dark-green);
+  color: white;
+}
+
+.voters-table-container {
+  background: var(--bg-white);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px var(--shadow);
+  overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+  .voters-table-container {
+    padding: 16px;
+  }
+
+  .table {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,61 @@
+.candidate-form {
+  max-width: 800px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.form-grid .full-width {
+  grid-column: 1 / -1;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border-color);
+}
+
+.files-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.file-link {
+  display: inline-block;
+  padding: 8px 12px;
+  background: var(--bg-grey);
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--dark-green);
+  transition: background 0.3s ease;
+}
+
+.file-link:hover {
+  background: #e0e0e0;
+}
+
+@media (max-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-grid .full-width {
+    grid-column: 1;
+  }
+}
+
+
+
+
+
+
+
+
